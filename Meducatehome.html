@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Meducate</title>
+  <!-- Use the meta tags to tell the browser which character set to use, and how to scate the webpage acoss devices-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+</head>
+<style>    <--! references for the page style, www.w3schools.com HTML styles, www.codeacademy.com, lecture notes  ---->
+  /* Set the font family */
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+  }
+  .header{
+    /*Define the styling for the header class*/
+    padding: 60px;
+    text-align: center;
+    background:#ADD8E6;
+    color: navy;
+  }
+  .header h1{
+    /*Change the h1 font size in the header*/
+    font-size: 40px;
+  }
+  #steth{
+    /*position the steth icon left*/
+    float:left;
+  }
+  #present{
+    /*position the present icon right*/
+    float:right;
+  }
+  .navigation{
+    /*hide over flow, and pick colour*/
+    overflow: hidden;
+    background-color: #ADD8E6;
+  }
+  .navigation a{
+    /*style the links in the navigation bar*/
+    float:left;
+    display:block;
+    padding: 16px 30px;
+    color: navy;
+    /*remove underline from links*/
+    text-decoration: none; 
+  }
+  .navigation a.right{
+    /*move the last link to the right of the screen*/
+    float:right;
+  }
+  .navigation a:hover{
+    /*invert the colours in of the links on mouse hover*/
+    background-color: navy;
+    color:#ADD8E6;
+  }
+  .footer{
+    /*Define the styling for the footer class*/
+    padding: 40px;
+    text-align: center;
+    background:#ADD8E6;
+    color: navy;
+    margin:0;
+  }
+
+  #sub_head{
+  /*change the font size for the sub heading*/
+    font-size:16px;
+  }
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+  }
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 20%; /* Set the width of the sidebar */
+  background-color: white; /* white background color */
+  padding: 20px; /* Some padding */
+}
+/* Main column */
+.main {
+  flex: 80%; /* Set the width of the main content */
+  background-color: white; /* white background color */
+  padding: 20px; /* Some padding */
+}
+/*define the default styling for the product card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial,Arial, Helvetica, sans-serif;
+}
+/*define the default styling for the product card price*/
+.price {
+  color: grey;
+  font-size: 22px;
+}
+/*define the default styling for the buttons*/
+#button {
+  background-color:#ADD8E6 ;
+  border: none;
+  color: navy;
+  width:150px;
+  height:60px;
+  margin:2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-self: center;
+}
+/*define the default styling for the button on hover*/
+#button:hover{
+  color: #ADD8E6;  
+  background-color: navy;
+}
+</style> 
+
+<body>   <!-- references for the page attributes https://www.w3schools.com/,https://github.com/shkyler, lecture notes  ---->
+  <!--Use a div to define a header - this will be styled using CSS (.header)-->
+  <div class="header">
+    <img id="steth" src="https://github.com/NiamhOL/Web-Application-Project-2020/blob/master/steth.png?raw=true", width="250px">
+    <img id="present" src="https://github.com/NiamhOL/Web-Application-Project-2020/blob/master/present.jpg?raw=true", width="250px">
+    <h1>Meducate</h1>
+    <p id="sub_head">Providing online support for doctors, clinicians, nurses, health professionals and the public.</p>
+    
+  </div>  <!--Use a div to define a navigation clicks - this will be styled using CSS (.navigation) and href attribute to allow clickable area-->
+  <div class="navigation">
+    <a href="Meducatehome.html">Home</a>
+    <a href="MeducateCourse.html">Customer Numbers</a>
+    <a href="Meducateabout.html">About Us</a>
+    <a href="Meducatecontact.html">Contact Us</a>
+    <a href="Meducatelogin.html" class="right">Log In</a>
+  </div>  
+  <p id="main_page">
+      <!--Divide the main body into a side panel and a main panel-->
+    <div class="row">
+        <div class="side">
+          <!--Add 3 buttons to the side panel, each button calls a different function when clicked-->
+          <h3 style="align-self:centre">View our Services</h3>
+          <button id="button" onclick="IMCourse()">Instructional Methods Course</button><br>
+          <button id="button" onclick="Research()">Research Design</button><br>  
+          <button id="button" onclick="Statistics()">Statistical Methods </button><br> 
+        </div>
+
+        <div class="main">
+          <!--Add a product card to display different products, the content of this is variable using the DOM-->
+            <div class="card">
+              <h1 id="card_head">Instructional Methods Short Course</h1>
+              <p id="card_price"class="price">€99.99</p>
+              <p id="card_desc">Introduction to Instructional methods, how to design and give presentations</p>
+            </div>  
+        </div>
+    </div>
+  
+  </p>  
+  <div class="footer">
+  </div>  
+
+</body>   
+<script>  <!-- references https://www.w3schools.com/js/js_htmldom_elements.asp  -->
+function IMCourse(){
+    // change the styling and content of the service
+  document.getElementById("card_head").innerHTML = "Instructional Methods Course";
+  document.getElementById("card_price").innerHTML = "€99.99";
+ }
+function Research(){
+    // change the styling and content of the service
+  document.getElementById("card_head").innerHTML = "Research";
+  document.getElementById("card_price").innerHTML = "€150";
+  document.getElementById("card_desc").innerHTML = "Two day research design course";
+  }
+  function Statistics(){
+    // change the styling and content of the service
+  document.getElementById("card_head").innerHTML = "Statistical Methods";
+  document.getElementById("card_price").innerHTML = "€29.99"
+  document.getElementById("card_desc").innerHTML = "One to one detailed analysis of your research"
+  }  
+  
+</script>
+
+</html>  
+
+
