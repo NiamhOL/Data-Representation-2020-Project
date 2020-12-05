@@ -3,7 +3,8 @@
 This project focuses on the creation of a educational company webpage that medical education courses for students.
 
 ### Contents of Github repository in alphabetical order
-|File Name | Description |
+|File Name | Description                                |
+|----------|--------------------------------------------|
 | ConFigureDatabase.py |
 | CreateDatabase.py | create a table containing students |
 | Data Rep Project References | references used in this project |
