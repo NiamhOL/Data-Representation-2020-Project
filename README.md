@@ -47,18 +47,18 @@ This project focuses on the creation of a educational company webpage that medic
 
 Python Anywhere can be accessed at the following link
  * Again you will arrive at the login page and the same username and password should be used. 
- <b> Please enter the following:
+ Please enter the following:
    
-      * username: 
-      * password: 
+      * username
+      * password
       
  * I have promted this in this situation but this would be removed in a normal situation.  
  * If the incorrect username or password is entered the user will not be able to enter the website until they enter the correct credentials.
  * If you would like to view my work for python anywhere my creddentials are the following:
  
-      * email: 
-      * username:
-      * password: 
+      * email 
+      * username
+      * password
       
  * I added a module to the service on the host: added corrs - again this can be viewed by loggining into the python anywhere website. 
 
