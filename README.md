@@ -68,7 +68,7 @@ Python Anywhere can be accessed at the following link
 
 ### MySQL Database 
 
-#### MySQLommand to creeate table 
+#### MySQL command to creeate table 
 ```
  CREATE TABLE members(
        id int NOT NULL AUTO_INCREMENT,
