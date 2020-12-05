@@ -32,7 +32,7 @@ This project focuses on the creation of a educational company webpage that medic
 
 ### Run virtual machine
 1. Once you have navigated to the location of your folser using a series of cd commands. Please do the following commands:
- ...
+ ,,,
  python -m venv venv 
  .\venv\Scripts\activate.bat
  set FLASK_APP=memberserver
@@ -40,7 +40,7 @@ This project focuses on the creation of a educational company webpage that medic
  set FLASK_DEBUG=1
  echo %FLASK_APP%
  flask run
- ...
+ ,,,
  
 2. Copy the url to the web browser: to view the membership should appear like :   to view the general website   and using the tabs we can navigate through the different tabs
 3. Once you reach the login screen enter usernname:andrew and password: andrew
@@ -68,7 +68,7 @@ Python Anywhere can be accessed at the following link
 ### MySQL Database 
 
 #### MySQLommand to creeate table 
-...
+,,,
  CREATE TABLE members(
        id int NOT NULL AUTO_INCREMENT,
        email VARCHAR(255),
@@ -77,7 +77,7 @@ Python Anywhere can be accessed at the following link
        age INT,
        PRIMARY KEY(id)
        );
-...
+,,,
 
 DESC members;
 
