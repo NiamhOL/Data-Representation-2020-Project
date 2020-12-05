@@ -24,13 +24,6 @@ This project focuses on the creation of a educational company webpage that medic
 | clients.csv | "client" numbers |
 | steth.png | picture used in webpage |
 
-
-## Run virtual machine
-
-Once you have navigated to the location of your folder using a series of cd commands. Please following:
-
-# Data-Representation-Project-2019
-
 ## How to download the repository:
 1. Download the repository from the following link <a href=https://github.com/NiamhOL/Data-Representation-2020-Project>Click here</a>  
 2. Click the clone or download button towards the right of your screen
@@ -47,9 +40,8 @@ Once you have navigated to the location of your folder using a series of cd comm
  * echo %FLASK_APP%
  * flask run
  
-2.  Copy the url to the web browser: to view the membership should appear like :   to view the general website   and using the tabs we can navigate through the different tabs
+2. Copy the url to the web browser: to view the membership should appear like :   to view the general website   and using the tabs we can navigate through the different tabs
 3. Once you reach the login screen enter usernname:andrew and password: andrew
-
 
 ## Python Anywhere:
 
@@ -98,14 +90,19 @@ DESC members;
 
 #### MySQLommand to insert row into table 
 
-insert into members (email, membershipPlan, startDate, age) values ("marygarcia@gmail.com","Monthly", "2018-07-24", 23)
+insert into students (email, membershipPlan, startDate, age) values ("maryryan@yahoo.ie","Daily", "2020-12-11", 21)
 
-insert into members (email, membershipPlan, startDate, age) values ("jameskelly@yahoo.ie","Annually", "2018-11-02", 30)
+insert into students (email, membershipPlan, startDate, age) values ("jameskelly@yahoo.ie","Annually", "2020-11-30", 30)
 
-insert into members (email, membershipPlan, startDate, age) values ("johnbyrne@gmail.com","Daily", "2019-02-12", 19)
+insert into students (email, membershipPlan, startDate, age) values ("johnbsmith@gmail.com","Daily", "2020-12-20", 18)
 
-| id | email                     | membershipPlan | startDate  | age  |
-|----|---------------------------|----------------|------------|------|
-|  1 | marygarcia@gmail.com      | Monthly        | 2018-07-24 |   23 |
-|  2 |  jameskelly@yahoo.ie      | Annually       | 2018-11-02 |   30 |
-|  3 |  johnbyrne@gmail.com      | Daily          | 2019-02-12 |   19 |
+insert into students (email, membershipPlan, startDate, age) values ("sarahobrien@gmail.com","Monthly", "2020-12-08", 27)
+
+
+| id | email                     | membershipPlan | startDate     | age  |
+|----|---------------------------|----------------|---------------|------|
+|  1 | maryryan@yahoo.ie         | Daily          | 2020-12-11    |  21  |
+|  2 | jameskelly@yahoo.ie       | Annually       | 2020-11-30    |  30  |
+|  3 | johnbsmith@gmail.com      | Daily          | 2020-12-20    |  18  |
+|  4 | sarahobrien@gmail.com     | Monthly        | 2020-12-08    |  27  |  
+
