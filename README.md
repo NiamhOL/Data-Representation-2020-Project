@@ -33,7 +33,7 @@ This project focuses on the creation of a educational company webpage that medic
 ### Run virtual machine
 1. Once you have navigated to the location of your folser using a series of cd commands. Please do the following commands:
 
- ```
+```
  python -m venv venv 
  .\venv\Scripts\activate.bat
  set FLASK_APP=memberserver
@@ -69,7 +69,7 @@ Python Anywhere can be accessed at the following link
 ### MySQL Database 
 
 #### MySQLommand to creeate table 
-'''
+```
  CREATE TABLE members(
        id int NOT NULL AUTO_INCREMENT,
        email VARCHAR(255),
@@ -78,7 +78,7 @@ Python Anywhere can be accessed at the following link
        age INT,
        PRIMARY KEY(id)
        );
-'''
+```
 
 DESC members;
 
