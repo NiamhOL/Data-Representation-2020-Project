@@ -36,7 +36,7 @@ This project focuses on the creation of a educational company webpage that medic
 ```
  python -m venv venv 
  .\venv\Scripts\activate.bat
- set FLASK_APP=memberserver
+ set FLASK_APP=studentserver
  set FLASK_ENV=development
  set FLASK_DEBUG=1
  echo %FLASK_APP%
