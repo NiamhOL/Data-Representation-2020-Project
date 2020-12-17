@@ -19,8 +19,8 @@ This project focuses on the creation of a educational company webpage that medic
 | Meducatelogin.html | webpage allowing student to login |
 | Project Description.pdf | Outline of Data Representation Project 2020 |
 | README.md | The file that briefly describes the project |
-| StudentsDAO.py | Data Access Object file for interacting with the student database |
-| StudentsServer.py | Web server for local gost and Python Anywhere |
+| MemberDAO.py | Data Access Object file for interacting with the student database |
+| MemberServer.py | Web server for local gost and Python Anywhere |
 | clients.csv | "client" numbers |
 | steth.png | picture used in webpage |
 
