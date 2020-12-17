@@ -31,7 +31,7 @@ This project focuses on the creation of a educational company webpage that medic
 4. Open the command line and navigate to the location of your downloaded file using a series of cd commands 
 
 ### Run virtual machine
-1. Once you have navigated to the location of your folser using a series of cd commands. Please do the following commands:
+1. Once you have navigated to the location of your folder using a series of cd commands. Please do the following commands:
 
 ```
  python -m venv venv 
