@@ -1,6 +1,6 @@
 # Data-Representation-2020-Project
 
-This project focuses on the creation of a educational company webpage that medical education courses for students.
+This project focuses on the creation of a educational company webpage that provides a variety of medical education courses for students.
 
 ### Contents of Github repository in alphabetical order
 |File Name | Description                                |
