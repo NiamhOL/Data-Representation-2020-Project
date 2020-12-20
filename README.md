@@ -44,7 +44,7 @@ This project focuses on the creation of a educational company webpage that medic
  ```
  
 2. Copy the url to the web browser: to view the membership should appear like :http://127.0.0.1:5000/membership.html   to view the general website http://127.0.0.1:5000/Meducatehome.html  and using the tabs we can navigate through the different tabs
-3. Once you reach the login screen enter usernname: and password: 
+
 
 ## Python Anywhere:
 
