@@ -5,7 +5,7 @@ This project focuses on the creation of a educational company webpage that provi
 ### Contents of Github repository in alphabetical order
 |File Name | Description                                |
 |----------|--------------------------------------------|
-| ConFigureDatabase.py |
+| ConFigureDatabase.py | Database configuration |
 | CreateDatabase.py | create a table containing students |
 | InsertIntoTable.py  | insert a row into the student table |
 | MeducateClassSchedule | webpage showing the class schedule
