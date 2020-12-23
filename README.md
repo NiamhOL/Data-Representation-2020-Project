@@ -2,7 +2,7 @@
 
 This project focuses on the creation of a educational company webpage that provides a variety of medical education courses for students.
 
-### Contents of Github repository in alphabetical order
+### Contents of Github repository 
 |File Name | Description                                |
 |----------|--------------------------------------------|
 | ConFigureDatabase.py | Database configuration |
