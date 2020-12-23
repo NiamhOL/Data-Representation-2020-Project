@@ -21,7 +21,7 @@ This project focuses on the creation of a educational company webpage that provi
 | MemberDAO.py | Data Access Object file for interacting with the student database |
 | MemberServer.py | Web server for local gost and Python Anywhere |
 | clients.csv | "client" numbers |
-| requirement.txt |
+| requirement.txt | pip install items |
 | Flask.png | picture of FLASK |
 | SQL.png| picture of SQL database |
 | steth.png | picture used in webpage |
