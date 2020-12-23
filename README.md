@@ -70,17 +70,7 @@ AJAX calls are made in the html files and the results are displayed in tables
        PRIMARY KEY(id)
        );
 ```
-
-DESC members;
-
-| Field          | Type         | Null | Key | Default | Extra          |
-|----------------|--------------|------|-----|---------|----------------|
-| id             | int(11)      | NO   | PRI | NULL    | auto_increment |
-| email          | varchar(255) | YES  |     | NULL    |                |
-| membershipPlan | varchar(20)  | YES  |     | NULL    |                |
-| startDate      | date         | YES  |     | NULL    |                |
-| age            | int(11)      | YES  |     | NULL    |                |
-
+![image](https://raw.githubusercontent.com/NiamhOL/Data-Representation-2020-Project/main/SQL.PNG)
 
 #### MySQLommand to insert row into table 
 
