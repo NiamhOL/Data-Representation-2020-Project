@@ -11,7 +11,7 @@ This project focuses on the creation of a educational company webpage that provi
 | MeducateClassSchedule | webpage showing the class schedule
 | MeducateContact.js | webpage showing contact details and allows user to ask a question |
 | MeducateCourse.html | webpage showing course details |
-| MeducateStudentMembership.html | webpage with CRUD interface for interacting with database |
+| MeducateStudentMembership.html | webpage with CRUD interface for interacting with database | Data Rep Project References.doc | project references |
 | MeducateStylePage.html | generic style page for webpage |
 | Meducatecontact.html | webpage with contact details |
 | Meducatehome.html | homepage |
@@ -21,6 +21,9 @@ This project focuses on the creation of a educational company webpage that provi
 | MemberDAO.py | Data Access Object file for interacting with the student database |
 | MemberServer.py | Web server for local gost and Python Anywhere |
 | clients.csv | "client" numbers |
+| requirement.txt |
+| Flask.png | picture of FLASK |
+| SQL.png| picture of SQL database |
 | steth.png | picture used in webpage |
 
 ## How to download the repository:
