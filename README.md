@@ -25,6 +25,7 @@ This project focuses on the creation of a educational company webpage that provi
 | Flask.png | picture of FLASK |
 | SQL.png| picture of SQL database |
 | steth.png | picture used in webpage |
+| Scripts folder | containing .exe files non-system processes |
 
 ## How to download the repository:
 1. Download the repository from the following link <a href=https://github.com/NiamhOL/Data-Representation-2020-Project>Click here</a>  
