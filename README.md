@@ -7,7 +7,6 @@ This project focuses on the creation of a educational company webpage that provi
 |----------|--------------------------------------------|
 | ConFigureDatabase.py |
 | CreateDatabase.py | create a table containing students |
-| Data Rep Project References | references used in this project |
 | InsertIntoTable.py  | insert a row into the student table |
 | MeducateClassSchedule | webpage showing the class schedule
 | MeducateContact.js | webpage showing contact details and allows user to ask a question |
@@ -29,6 +28,12 @@ This project focuses on the creation of a educational company webpage that provi
 2. Click the clone or download button towards the right of your screen
 3. Download and unzip this file. Save the unziped file to a location on your desktop where it is easily accessible
 4. Open the command line and navigate to the location of your downloaded file using a series of cd commands 
+
+## Overview of the project
+The data is stored in a MySQL database.
+The database queries are defined using the MemberDAO.py database access object.
+The MemberServer.py application server calls the queries and returns the results as JSON objects.
+AJAX calls are made in the html files and the results are displayed in tables
 
 ### Run virtual machine
 1. Once you have navigated to the location of your folder using a series of cd commands. Please do the following commands:
