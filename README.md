@@ -1,5 +1,8 @@
 # Data-Representation-2020-Project
 
+## Student: Niamh O'Leary
+## ID: G00376339
+
 This project focuses on the creation of a educational company webpage that provides a variety of medical education courses for students.
 
 ### Contents of Github repository 
