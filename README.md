@@ -90,3 +90,8 @@ insert into students (email, membershipPlan, startDate, age) values ("sarahobrie
 |  3 | johnbsmith@gmail.com      | Daily          | 2020-12-20    |  18  |
 |  4 | sarahobrien@gmail.com     | Monthly        | 2020-12-08    |  27  |  
 
+## Author
+Niamh O'Leary for HDip in Data Analytics 2019/2020.
+
+## Licence
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details.
