@@ -57,7 +57,7 @@ AJAX calls are made in the html files and the results are displayed in tables
  ![image](https://raw.githubusercontent.com/NiamhOL/Data-Representation-2020-Project/main/Flask.PNG)
  
  
-2. Copy the url to the web browser: to view the membership should appear like :http://127.0.0.1:5000/membership.html   to view the general website http://127.0.0.1:5000/Meducatehome.html  and using the tabs we can navigate through the different tabs
+2. Copy the url to the web browser: to view the membership should appear like :http://127.0.0.1:5000/membership.html   to view the general website http://127.0.0.1:5000/Meducatehome.html, it should be possible to navigate through the different pages in the website.
 
 
 
